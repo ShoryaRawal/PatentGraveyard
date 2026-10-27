@@ -239,3 +239,5 @@ instructions are in [`MOBILE.md`](MOBILE.md).
 * **Legal notice.** `country_status` is reported by Google Patents and is **not**
   a substitute for a formal freedom-to-operate opinion. The app labels this
   clearly; diligence decisions should be confirmed against the USPTO register.
+
+# https://docs.google.com/presentation/d/1TA8h913UMWZx_JO-u-4Edcf96RQgqNkrq8l4qZm5RZk/edit?usp=sharing
