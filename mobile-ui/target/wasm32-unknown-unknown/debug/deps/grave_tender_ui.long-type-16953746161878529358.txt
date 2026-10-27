@@ -1,0 +1,6 @@
+(&str, {closure@src/lib.rs:1417:113: 1417:120}): IntoClass
+(&str, reactive_stores::keyed::AtKeyed<Inner, Prev, K, bool>)
+(&str, reactive_stores::keyed::KeyedSubfield<Inner, Prev, K, bool>)
+(&str, reactive_stores::subfield::Subfield<Inner, Prev, bool>)
+leptos::html::HtmlElement<leptos::html::Div, (Class<&str>, Class<(&str, {closure@src/lib.rs:1417:76: 1417:83})>), ((&str, leptos::html::HtmlElement<leptos::html::Span, (Class<&str>,), (&str,)>, leptos::tachys::html::InertElement),)>
+leptos::prelude::ClassAttribute<(&str, {closure@src/lib.rs:1417:113: 1417:120})>

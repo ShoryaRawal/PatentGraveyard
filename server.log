@@ -1,0 +1,4 @@
+   Compiling patent-graveyard v0.1.0 (/Users/shoryarawal/projects/project_lib)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 12.30s
+     Running `target/debug/patent-graveyard`
+🚀 PatentGraveyard listening on http://127.0.0.1:3000

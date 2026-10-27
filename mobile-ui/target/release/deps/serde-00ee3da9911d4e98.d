@@ -1,0 +1,14 @@
+/Users/shoryarawal/projects/project_lib/mobile-ui/target/release/deps/serde-00ee3da9911d4e98.d: /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /Users/shoryarawal/projects/project_lib/mobile-ui/target/release/build/serde-58b91c838ccc72b0/out/private.rs
+
+/Users/shoryarawal/projects/project_lib/mobile-ui/target/release/deps/libserde-00ee3da9911d4e98.rlib: /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /Users/shoryarawal/projects/project_lib/mobile-ui/target/release/build/serde-58b91c838ccc72b0/out/private.rs
+
+/Users/shoryarawal/projects/project_lib/mobile-ui/target/release/deps/libserde-00ee3da9911d4e98.rmeta: /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs /Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs /Users/shoryarawal/projects/project_lib/mobile-ui/target/release/build/serde-58b91c838ccc72b0/out/private.rs
+
+/Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs:
+/Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/integer128.rs:
+/Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/mod.rs:
+/Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/de.rs:
+/Users/shoryarawal/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/private/ser.rs:
+/Users/shoryarawal/projects/project_lib/mobile-ui/target/release/build/serde-58b91c838ccc72b0/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/shoryarawal/projects/project_lib/mobile-ui/target/release/build/serde-58b91c838ccc72b0/out

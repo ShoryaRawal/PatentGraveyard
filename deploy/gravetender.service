@@ -1,0 +1,22 @@
+[Unit]
+Description=GraveTender patent desk and mobile API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gravetender
+Group=gravetender
+WorkingDirectory=/opt/gravetender
+EnvironmentFile=/etc/gravetender.env
+ExecStart=/opt/gravetender/patent-graveyard
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/gravetender
+
+[Install]
+WantedBy=multi-user.target

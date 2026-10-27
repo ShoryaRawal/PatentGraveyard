@@ -1,0 +1,1 @@
+ReportsTabPropsBuilder<((leptos::prelude::RwSignal<std::option::Option<Bootstrap>>,), (leptos::prelude::RwSignal<u32>,), (leptos::prelude::RwSignal<std::string::String>,), (leptos::prelude::RwSignal<std::string::String>,), ())>

@@ -1,0 +1,7 @@
+[build]
+dist = "dist"
+filehash = false
+
+[watch]
+watch = ["src", "style.css", "index.html"]
+ignore = ["target", "dist"]

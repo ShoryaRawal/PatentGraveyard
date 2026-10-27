@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PatentGraveyard</title>
+    <link rel="stylesheet" href="/main.css" integrity="sha384-X1/HtS3wdTMjyXoUDpA9rKjVhxMDEIUL450sX8OH6gahNWImB31WVjMh/nHnp5qw"/>
+    
+  <link rel="modulepreload" href="/patent-graveyard.js" crossorigin="anonymous" integrity="sha384-KWRIqwowx//XcRy+RMFR9QnVjrhlQPj6vtu3FW98aYTQKj6wbtNSnxrPrySuZm+p"><link rel="preload" href="/patent-graveyard_bg.wasm" crossorigin="anonymous" integrity="sha384-8t0j6XHcJgygprR8A7OxfcZB4oCCwfqneqylzxjkczhaDjossGy7hngekqF22CmK" as="fetch" type="application/wasm"></head>
+  <body>
+    <!--
+      This file exists only as trunk's build target: it tells trunk which CSS
+      and assets to bundle alongside the WASM islands. In SSR + islands mode the
+      actual HTML document is rendered by the Axum server (see `app::shell`), so
+      nothing here is served to users.
+    -->
+  
+<script type="module">
+import init, * as bindings from '/patent-graveyard.js';
+const wasm = await init({ module_or_path: '/patent-graveyard_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

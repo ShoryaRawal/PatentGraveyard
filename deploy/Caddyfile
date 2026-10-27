@@ -1,0 +1,24 @@
+# GraveTender reverse proxy.
+#
+# Replace api.example.com with your DNS name. Caddy obtains and renews the
+# certificate automatically once the A/AAAA record points at the instance.
+#
+# The phone only needs /api/mobile/*. Everything else is the desktop terminal
+# and is put behind basic auth so a public host cannot spend SerpApi credits
+# through the unauthenticated /api/search route.
+api.example.com {
+	encode zstd gzip
+
+	@mobile path /api/mobile/*
+	handle @mobile {
+		reverse_proxy 127.0.0.1:3000
+	}
+
+	handle {
+		basic_auth {
+			# Generate with: caddy hash-password --plaintext 'choose-a-password'
+			analyst REPLACE_WITH_BCRYPT_HASH
+		}
+		reverse_proxy 127.0.0.1:3000
+	}
+}

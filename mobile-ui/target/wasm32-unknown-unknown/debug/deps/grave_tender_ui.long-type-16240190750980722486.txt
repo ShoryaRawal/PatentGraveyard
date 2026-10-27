@@ -1,0 +1,1 @@
+SettingsTabPropsBuilder<((leptos::prelude::RwSignal<std::string::String>,), (leptos::prelude::RwSignal<std::string::String>,), (leptos::prelude::Callback<()>,), (leptos::prelude::Callback<()>,), (), (), ())>

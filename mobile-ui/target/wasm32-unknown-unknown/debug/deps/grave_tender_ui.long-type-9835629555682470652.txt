@@ -1,0 +1,1 @@
+std::option::Option<leptos::prelude::View<leptos::html::HtmlElement<leptos::html::Div, (Class<&str>,), ((leptos::tachys::html::InertElement, leptos::tachys::html::InertElement),)>>>

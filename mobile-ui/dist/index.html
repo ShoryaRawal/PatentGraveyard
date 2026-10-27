@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1"
+    />
+    <meta name="theme-color" content="#edece7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>GraveTender</title>
+    <link rel="stylesheet" href="/style.css" integrity="sha384-YxEWnfkt+zh7oM/RO0gZhNOf0Wxm7R5ZNZbabITjgZD0AAckcYrVKEMGVRmLiFxZ"/>
+  <link rel="modulepreload" href="/grave-tender-ui.js" crossorigin="anonymous" integrity="sha384-dV56hQ5ZhzNskDlERfuZfIOsF7gws9k4TRM/jwkgpGcq8tjN4wN/flIKUJjez2fX"><link rel="preload" href="/grave-tender-ui_bg.wasm" crossorigin="anonymous" integrity="sha384-fAY4Pf2jPqsYwZOmV2XltL/DKZpAr76xO5q3FA3F7p/QDHS1kcxAx91Dzp/7qvlV" as="fetch" type="application/wasm"></head>
+  <body>
+<script type="module">
+import init, * as bindings from '/grave-tender-ui.js';
+const wasm = await init({ module_or_path: '/grave-tender-ui_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

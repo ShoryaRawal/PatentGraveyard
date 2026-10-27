@@ -1,0 +1,10 @@
+[build]
+# Trunk writes the WASM bundle into `dist/pkg`, which is where the Axum server
+# (see `[package.metadata.leptos]` in Cargo.toml) expects to find it.
+dist = "dist/pkg"
+# Deterministic file names so the server-rendered document can reference them.
+filehash = false
+
+[watch]
+watch = ["src", "style", "Cargo.toml", "index.html"]
+ignore = ["target", "dist"]

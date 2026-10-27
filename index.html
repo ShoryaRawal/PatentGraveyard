@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PatentGraveyard</title>
+    <link data-trunk rel="css" href="style/main.css" />
+    <link data-trunk rel="copy-dir" href="public" />
+  </head>
+  <body>
+    <!--
+      This file exists only as trunk's build target: it tells trunk which CSS
+      and assets to bundle alongside the WASM islands. In SSR + islands mode the
+      actual HTML document is rendered by the Axum server (see `app::shell`), so
+      nothing here is served to users.
+    -->
+  </body>
+</html>
